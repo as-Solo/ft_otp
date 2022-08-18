@@ -3,7 +3,7 @@
 
 from cryptography.fernet import Fernet
 from Crypto.Hash import SHA256
-from os import system
+#from os import system
 
 # ------------------------- CONFIGURACION -----------------------------
 
@@ -23,7 +23,7 @@ def passphrase(key):
 def inicializar(key):
     if len(key) >= 64:
         try:
-            clave = bytes.fromhex(key)
+            bytes.fromhex(key)
             return True
         except:
             print ("La clave introducida no es un hexadecimal valido")

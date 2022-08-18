@@ -1,3 +1,5 @@
+#  Realizado por Solo a 17/08/2022 última actualización 17/08/2022.
+
 import tkinter
 from code import save_key
 from code import generate_totp
